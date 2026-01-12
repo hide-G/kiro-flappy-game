@@ -4,6 +4,8 @@
 
 シンプルなFlappy Birdスタイルのブラウザゲームです。人工知能が数分でコーディングしました。
 
+https://main.d2bsfw474omsfw.amplifyapp.com/
+
 ## ✨ AI生成の特徴
 
 - **完全自動生成**: Kiro CLIがゲームロジックからHTML/CSSまで全て作成
