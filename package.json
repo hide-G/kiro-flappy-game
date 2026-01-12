@@ -1,0 +1,13 @@
+{
+  "name": "kiro-flappy-game",
+  "version": "1.0.0",
+  "description": "Flappy Bird style game with Kiro character",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": ["game", "flappy", "kiro", "javascript"],
+  "author": "Kiro CLI",
+  "license": "MIT"
+}
