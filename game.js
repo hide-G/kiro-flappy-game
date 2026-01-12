@@ -111,7 +111,7 @@ class KiroFlappyGame {
         this.ctx.fillText('👻', this.kiro.x, this.kiro.y + this.kiro.height);
         
         // パイプを描画
-        this.ctx.fillStyle = '#2c2c54';
+        this.ctx.fillStyle = '#8B4513';
         for (let pipe of this.pipes) {
             // 上のパイプ
             this.ctx.fillRect(pipe.x, 0, this.pipeWidth, pipe.topHeight);
