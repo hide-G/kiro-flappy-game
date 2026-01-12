@@ -142,7 +142,7 @@ function restartGame() {
 function shareOnX() {
     const score = document.getElementById('finalScore').textContent;
     const gameUrl = window.location.href;
-    const text = `Kiro Flappy Gameで${score}点を獲得しました！Kiro CLIで開発 ${gameUrl} #Kiro #BuildwithKiro`;
+    const text = `Kiro Flappy Gameで${score}点を獲得しました！ ${gameUrl} #Kiro #BuildwithKiro`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(twitterUrl, '_blank');
 }
